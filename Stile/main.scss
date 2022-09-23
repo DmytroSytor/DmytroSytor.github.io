@@ -1,0 +1,864 @@
+@import 'mixins';
+@import 'fones';
+@import 'variables';
+
+
+
+
+
+.main{
+    @include lx (700px, 1440px );
+    background-image: url(../Image/main_pic.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: relative;
+    .cont_dream{
+        position: absolute;
+        display: flex;
+        margin-top: 47px;
+        margin-left: 248px;
+        font-size: 20px;
+        font-weight: 700;
+        color: $main_color_font;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        letter-spacing: 0.2px;
+        }
+        .font{
+            font-family: 'Montserrat med';
+            font-size: 14px;
+            font-weight: 400;
+            color: $main_color_font;
+            text-decoration: none;
+           
+           
+        }
+        .Login{
+            @include lx (36px, 90px );
+            position: absolute;
+            margin-left: 973px;
+            margin-top: 42px;
+            text-align: center;
+            padding-top: 8px;
+         }
+         .Sign_up{
+            @include lx (36px, 90px );
+            position: absolute;
+            margin-left: 1059px;
+            margin-top: 42px;
+            text-align: center;
+            padding-top: 8px;
+}
+        .main_txt{
+            @include lx (126px, 470px );
+            position: absolute;
+            margin-top: 223.5px;
+            margin-left: 485px;
+            font-family: 'Montserrat';
+            font-size: 52px;
+            font-weight: 700;
+            color: $main_color_font;
+            text-align: center;
+         
+        }
+        .txt_main2{
+            @include lx (25px, 418px );
+            position: absolute;
+            margin-left: 511px;
+            margin-top: 375px;
+            font-family: 'Roboto-Light';
+            font-size: 24px;
+            font-weight: 300;
+            color: #f7f3f2;
+            text-align: center;
+           
+        }
+        .first_but{
+            @include lx (40px, 225px );
+            background-color: $main_button_col;
+            border-radius: 40px;
+            position: absolute;
+            margin-top: 436px;
+            margin-left: 608px;
+            border: 0px;
+            cursor: pointer;
+            font-family: 'Montserrat med';
+            font-size: 14px;
+            font-weight: 300;
+            color: $main_color_font;
+            padding-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            letter-spacing: 0.3px;
+            }
+
+}
+.how_dream{
+    @include lx (32px, 342px );
+    margin-top: 89px;
+    margin-left: 541px;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 700;
+    color: $second_color_font;
+    
+
+}
+.dream_cont{
+    @include lx (400px, 940px );
+    margin-top: 35px;
+    margin-left: 242px;
+    display: flex;
+    justify-content: space-between;
+    .dream_box{
+        @include lx (400px, 300px );
+        }
+        .cont__foto1{
+            background-image: url(../Image/Step\ 1.png);
+        }
+        .cont__foto2{
+            background-image: url(../Image/Step_2.png);
+        }
+        .cont__foto3{
+            background-image: url(../Image/Step\ 3.png);
+        }
+        .step_bot1{
+            @include lx (20px, 70px );
+            margin-top: 219px;
+            margin-left: 25px;
+            background-color: $main_button_col;
+            border: 0px;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+        .step_bot2{
+            @include lx (20px, 70px );
+            margin-top: 250px;
+            margin-left: 25px;
+            background-color: $main_button_col;
+            border: 0px;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+        
+        .font_step{
+            font-family: 'Montserrat Light';
+            font-size: 10px;
+            font-weight: 400;
+            color: $main_color_font;
+            letter-spacing: 2px;
+            padding-top: 3px;
+            padding-left: 7px;
+
+        }
+        .main_step{
+            display: block;
+            @include lx (58px, 250px );
+            margin-left: 25px;
+            margin-top: 22px;
+            display: flex;
+             line-height: 26px;
+             margin-bottom: 0px;
+        }
+        .font_step1{
+            font-family: 'Montserrat';
+            font-size: 24px;
+            font-weight: 700;
+            color: $main_color_font;
+        }
+        .main_step2{
+            @include lx (29px, 250px );
+            margin-left: 25px;
+            margin-top: 24px;
+            display: flex;
+            line-height: 26px;
+            margin-bottom: -4px;
+        }
+        .font_step2{
+            font-family: 'Roboto-Light';
+            font-size: 14px;
+            font-weight: 300;
+            color: #E3E3E3;
+            line-height: 14px;
+        }
+        .second_step{
+            @include lx (57px, 250px );
+            margin-left: 25px;
+            margin-top: 19px;
+            display: flex;
+
+        }
+}
+.contriner_people{
+    @include lx (32px, 491px );
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 700;
+    color: $second_color_font;
+    margin-top: 89px;
+    margin-left: 468px;
+
+}
+.box_people{
+    @include lx (221px, 941px );
+    margin-top: 35px;
+    margin-left: 242px;
+    display: flex;
+    justify-content: space-between;
+    .box_foto{
+        @include lx (221px, 221px );
+        background-repeat: no-repeat;
+        background-position-x: center;
+        }
+    .person__foto1{
+        background-image: url(../Image/Photo1.png);
+    }
+    .person__foto2{
+        background-image: url(../Image/foto2.png);
+    }
+    .person__foto3{
+        background-image: url(../Image/foto3.png);
+    }
+    .person__foto4{
+        background-image: url(../Image/foto\ 4.png);
+    }
+    .name_person{
+        @include lx (18px, 221px );
+        margin-top: 138px;
+        margin-bottom: 0px;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 700;
+        color: $second_color_font;
+    }
+    .about_person{
+        @include lx (57px, 221px );
+        font-family: 'Roboto-Light';
+        font-size: 14px;
+        font-weight: 300;
+        color: $third_color_font;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 23px;
+        }
+    .about_person2{
+        @include lx (57px, 221px );
+        font-family: 'Roboto-Light';
+        font-size: 14px;
+        font-weight: 300;
+        color: $third_color_font;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 28px;
+        padding-left: 5px;
+            }
+    .about_person3{
+        @include lx (57px, 221px );
+        font-family: 'Roboto-Light';
+        font-size: 14px;
+        font-weight: 300;
+        color:$third_color_font;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 28px;
+        }
+
+}
+.but_partner{
+    @include lx (40px, 180px );
+    cursor: pointer;
+    border-radius: 40px;
+    color: $main_button_col;
+    background-color: #FFFFFF;
+    border: 2px solid $main_button_col;
+    margin-top:39px ;
+    margin-left: 623px;
+    padding-left: 11px;
+    padding-top: 3px;
+    font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 700;
+
+}
+.holyday_box{
+    @include lx (32px, 413px );
+    font-family: 'Montserrat';
+    margin-left: 506px;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 89px;
+}
+.conteiner_foto{
+    @include lx (970px, 940px );
+    margin-left: 242px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    .content_foto1{
+        @include lx (310px, 300px );
+        background-image: url(../Image/Sport1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .content_foto2{
+        @include lx (310px, 300px );
+        background-image: url(../Image/Healath2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .content_foto3{
+        @include lx (310px, 300px );
+        background-image: url(../Image/extrime3.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .content_foto4{
+        @include lx (310px, 300px );
+        background-image: url(../Image/Object4.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .content_foto5{
+        @include lx (310px, 620px );
+        background-image: url(../Image/Object5.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .content_foto6{
+        @include lx (310px, 620px );
+        background-image: url(../Image/Object6.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .content_foto7{
+        @include lx (310px, 300px );
+        background-image: url(../Image/Object7.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .font_holy{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+    color: $main_color_font;
+    text-align: center;
+    padding-top: 120px;
+
+    }
+    .font_holy1{
+        font-family: 'Montserrat';
+        font-size: 22px;
+        font-weight: 700;
+        color: $main_color_font;
+        text-align: center;
+        padding-top: 106px;
+    
+        }
+   
+
+}
+.create_activity{
+    @include lx (164px, 482px );
+    margin-top: 89px;
+    margin-left: 470px;
+    .create_holiday{
+        font-family: 'Montserrat';
+        font-size: 26px;
+        font-weight: 700;
+        color: $second_color_font;
+        text-align: center;
+    }
+    .quest_holiday{
+        font-family: 'Roboto-Light';
+        font-size: 18px;
+        font-weight: 300;
+        color: $second_color_font;
+        text-align: center;
+        margin-top: 48px;
+
+    }
+    .box_holiday{
+        @include lx (40px, 482px );
+        display: flex;
+        margin-top: 22px
+
+    }
+    .write_holiday{
+        @include lx (33px, 281px );
+        border-radius: 3px;
+        border: 1px solid #D4D4D4;
+        font-family: 'Roboto-Light'; 
+        font-size: 14px;
+        font-weight: 300;
+        color: #999999;
+        padding-left: 14px;
+        padding-top: 4px;
+
+    }
+    .But_holiday{
+        @include lx (40px, 172.12px );
+        border-radius: 40px;
+        border: 0px;
+        background-color:$main_button_col;
+        margin-left: 10px;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 700;
+        color: $main_color_font;
+        padding-top: 2px;
+        padding-left: 10px;
+        cursor: pointer;
+        }
+
+}
+.footer{
+    @include lx (224px, 1440px );
+    margin-top: 100px;
+    margin-left: -8px;
+    .footer_line{
+        @include lx (2px, 1440px );
+        background-color: $main_button_col;
+    }
+    .footer_cont{
+        @include lx (222px, 1440px );
+        padding-top: 36px;
+        display: flex;
+
+    }
+    .footer_dream{
+        margin-left: 249px;
+        font-family: 'Montserrat Light';
+            font-size: 16px;
+            font-weight: 400;
+            color:$main_button_col;
+    }
+    .footer_company{
+        @include lx (180px, 114px );
+        margin-left: 122px;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .font_content{
+        font-family: 'Roboto-Light'; 
+        font-size: 14px;
+        font-weight: 300;
+        color: #999999;
+        margin: 0px;
+
+    }
+    .head_company{
+        font-family: 'Montserrat';
+            font-size: 14px;
+            font-weight: 700;
+            color: $second_color_font;
+            margin-bottom: 6px;
+            margin-top: 0px;
+
+    }
+    .footer_partner{
+        font-family: 'Montserrat';
+            font-size: 14px;
+            font-weight: 700;
+            color: #444444;
+            margin-top: 2px;
+            margin-left: 125px;
+    }
+    .disignet{
+        @include lx (180px, 114px );
+        margin-left: 286px;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-family: 'Montserrat';
+            font-size: 10px;
+            font-weight: 700;
+            color: #CCCCCC;
+            letter-spacing: 1px;
+        }
+    .disignet_logo{
+        @include lx (24px, 110px );
+        background-image: url(../Image/Bitmap.png);
+        margin-top: 6px;
+    }
+}
+
+
+
+
+.Login:hover {
+    @include lx (24px, 86px );
+    border: 2px solid $main_color_font;
+    border-radius: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.Sign_up:hover{
+    @include lx (24px, 86px );
+    border: 2px solid $main_color_font;
+    border-radius: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+
+    
+}
+@media screen and (max-width: 780px) {
+    .main{
+        @include lx (700px, 768px );
+        background-image: url(../Image/Background2.png);
+        .cont_dream{
+            margin-top: 46px;
+            margin-left: 48px;}
+        .Login{
+            margin-left: 565px;
+            margin-top: 40px;}
+        .Sign_up{
+            margin-left: 646px;
+            margin-top: 40px;}
+            padding-bottom: 10px;
+        .main_txt{
+            margin-left: 149px;}
+        .txt_main2{
+            margin-left: 186px;}
+        .first_but{
+            margin-left: 272px;}
+        }
+    .how_dream{
+        @include lx (27px, 289px );
+        margin-top: 94px;
+        margin-left: 240px;
+        font-size: 22px;
+    }
+    .dream_cont{
+        @include lx (400px, 748px );
+        margin-left: 10px;
+        .dream_box{
+            @include lx (400px, 236px );
+            }
+        .cont__foto1{
+            background-image: url(../Image/Step\ 1.1.png);
+        }
+        .cont__foto2{
+            background-image: url(../Image/Step\ 2.1.png);
+        }
+        .cont__foto3{
+            background-image: url(../Image/Step\ 3.1.png);
+        }
+        .second_step{
+            @include lx (76px, 196px );
+            margin-left: 20px;
+            margin-top: 10px;
+            display: flex;
+            
+        }
+    }
+    .contriner_people{
+        @include lx (27px, 416px );
+        font-size: 22px;
+        margin-top: 94px;
+        margin-left: 176px;
+    }
+    .box_people{
+        @include lx (464px, 492px );
+        margin-top: 35px;
+        margin-left: 138px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between
+    }
+        .box_foto{
+            @include lx (205px, 236px );
+        }
+    .but_partner{
+        margin-left: 294px;
+    }
+    .holyday_box{
+        @include lx (27px, 350px );
+        margin-left: 209px;
+        font-size: 22px;
+        margin-top: 94px;
+    }
+.conteiner_foto{
+    @include lx (970px, 746px );
+    margin-left: 2px;
+    .content_foto1{
+        @include lx (310px, 236px );
+        background-image: url(../Image/activ1.png);
+    }
+    .content_foto2{
+        @include lx (310px, 236px );
+        background-image: url(../Image/activ2.png);
+    }
+    .content_foto3{
+        @include lx (310px, 236px );
+        background-image: url(../Image/activ3.png);
+    }
+    .content_foto4{
+        @include lx (310px, 236px );
+        background-image: url(../Image/activ4.png);
+    }
+    .content_foto5{
+        @include lx (310px, 492px );
+        background-image: url(../Image/activ5.png);
+    }
+    .content_foto6{
+        @include lx (310px, 492px );
+        background-image: url(../Image/activ6.png);
+    }
+    .content_foto7{
+        @include lx (310px, 236px );
+        background-image: url(../Image/activ7.png);
+    }
+}
+.create_activity{
+    @include lx (158px, 482px );
+    margin-top: 95px;
+    margin-left: 143px;
+    .create_holiday{
+        font-size: 22px;
+    }
+}
+.footer{
+    @include lx (224px, 768px );
+    margin-top: 100px;
+    margin-left: -8px;
+    .footer_line{
+        @include lx (2px, 768px );
+    }
+    .footer_cont{
+        @include lx (222px, 690px );
+    }
+    .footer_dream{
+        margin-left: 39px;
+    }
+    .disignet{
+        @include lx (180px, 114px );
+        margin-left: 80px;
+    }
+}
+}
+@media screen and (max-width: 340px) {
+    .main{
+        @include lx (540px, 320px );
+        background-image: url(../Image/Background3.png);
+        .Login{
+            margin-left: 84px;
+            margin-top: 30px;}
+        .Sign_up{
+            margin-left: 160px;
+            margin-top: 30px;}
+        .cont_dream{
+            margin-top: 153px;
+            margin-left: 86px;
+        }
+        .main_txt{
+            @include lx (174px, 272px );
+            margin-left: 24px;
+            margin-top: 203.5px;
+            font-size: 30px;}
+        .txt_main2{
+            @include lx (49px, 280px );
+            font-size: 18px;
+            margin-top: 283px;
+            margin-left: 20px;}
+        .first_but{
+            @include lx (40px, 280px );
+            margin-left: 20px;
+            margin-top: 347px;}
+        }
+        .how_dream{
+            @include lx (27px, 289px );
+            margin-top: 24px;
+            margin-left: 16px;
+            font-size: 22px;
+        }
+        .dream_cont{
+            @include lx (740px, 300px );
+            margin-top: 15px;
+            margin-left: 2px;
+            display: flex;
+            flex-direction: column;
+            .dream_box{
+                @include lx (240px, 300px );}
+                .cont__foto1{
+                background-image: url(../Image/Object3.1.png);
+             }
+                .cont__foto2{
+                background-image: url(../Image/Object3.2.png);
+        }
+                .cont__foto3{
+                background-image: url(../Image/Object3.3.png);
+        }
+        .step_bot1{
+            @include lx (20px, 70px );
+            margin-top: 69px;
+            margin-left: 34px;
+        }
+        .main_step{
+            margin-left: 20px;
+            margin-top: 18px;
+        }
+        .step_bot2{
+            margin-top: 100px;
+            margin-left: 32px;
+        }
+        }
+        .contriner_people{
+            @include lx (54px, 280px );
+            margin-top: 26px;
+            margin-left: 12px;
+            font-size: 22px;
+            text-align: center;
+        }
+    .box_people{
+        @include lx (868px, 236px );
+        margin-top: 14px;
+        margin-left: 24px;
+        display: flex;
+        .box_foto{
+            @include lx (205px, 236px );
+        }
+        .person__foto3{
+            @include lx (224px, 236px );
+
+        }
+    }
+    .but_partner{
+        @include lx (40px, 280px );
+        margin-left: 12px;
+    }
+    .holyday_box{
+        @include lx (54px, 280px );
+        margin-left: 12px;
+        margin-top: 46px;
+        text-align: center;
+    }
+
+    .conteiner_foto{
+        @include lx (900px, 300px );
+        margin-left: 2px;
+        .content_foto1{
+            @include lx (120px, 300px );
+            background-image: url(../Image/activ1.3.png);
+        }
+        .content_foto2{
+            @include lx (120px, 300px );
+            background-image: url(../Image/activ2.3.png);
+        }
+        .content_foto3{
+            @include lx (120px, 300px );
+            background-image: url(../Image/activ3.3.png);
+        }
+        .content_foto4{
+            @include lx (120px, 300px );
+            background-image: url(../Image/activ4.3.png);
+        }
+        .content_foto5{
+            @include lx (120px, 300px );
+            background-image: url(../Image/activ5.3.png);
+        }
+        .content_foto6{
+            @include lx (120px, 300px );
+            background-image: url(../Image/activ6.3.png);
+        }
+        .content_foto7{
+            @include lx (120px, 300px );
+            background-image: url(../Image/activ7.3.png);
+        }
+        .font_holy {
+            padding-top: 33px;
+        }
+        .font_holy1 {
+            padding-top: 33px;
+        }
+    }
+    .create_activity{
+        @include lx (54px, 280px );
+        margin-top: 35px;
+        margin-left: 12px;
+        .quest_holiday{
+            margin-top: 9px;
+        }
+        .box_holiday{
+            @include lx (90px, 280px );
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px
+        }
+        .write_holiday{
+            @include lx (33px, 264px );
+        }
+        .But_holiday{
+            @include lx (40px, 280px );
+            margin-top: 10px;
+            margin-left: 0;
+            padding: 0;
+            display: block;
+        }
+    }
+    .footer{
+        @include lx (204px, 320px );
+        margin-top: 200px;
+        margin-left: -8px;
+        
+        .footer_line{
+            @include lx (2px, 320px );
+        }
+        .footer_cont{
+            @include lx (202px, 320px );
+            padding-top: 19px;
+            display: flex;
+            flex-direction: column;
+        }
+        .footer_dream{
+            margin-left: 101px;
+            
+        }
+        .footer_company{
+            @include lx (70px, 188px );
+            margin-left: 66px;
+            margin-top: 13px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .head_company{
+            width: 100%;
+            display: block;
+        }
+        .footer_partner{
+            @include lx (74px, 110px );
+                margin-top: 6px;
+                margin-left: 105px;
+                text-align: center;
+        }
+        .disignet{
+            margin-top: 14px;
+            margin-left: 105px;
+            text-align: center;
+            display: flex;
+            align-items: normal;
+            
+        }
+        .disignet_logo{
+            margin-top: 7px;
+        }
+    }
+    
+
+}
